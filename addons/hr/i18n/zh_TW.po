@@ -1663,7 +1663,7 @@ msgstr "國籍(國家)"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Need More Info?"
-msgstr "需要更多的信息？"
+msgstr "需要更多的訊息？"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_date_deadline
