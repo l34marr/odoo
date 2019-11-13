@@ -26,7 +26,7 @@ msgstr ""
 #: code:addons/hr_attendance/models/hr_attendance.py:0
 #, python-format
 msgid "\"Check Out\" time cannot be earlier than \"Check In\" time."
-msgstr "\"簽退\"時間不能早於\"簽到\"時間。"
+msgstr "\"下班打卡\"時間不能早於\"上班打卡\"時間。"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_attendance.py:0
@@ -47,7 +47,7 @@ msgstr "%(empl_name)s 從%(check_in)s 到 %(check_out)s"
 msgid ""
 "<b>Warning! Last check in was over 12 hours ago.</b><br/>If this isn't "
 "right, please contact Human Resource staff"
-msgstr "<b>警告！ 距離最後一次簽到時間超過12小時.</b><br/>如果不正確，請聯繫人力資源部"
+msgstr "<b>警告！ 距離最後一次上班打卡時間超過12小時.</b><br/>如果不正確，請聯繫人力資源部"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_kanban
@@ -117,7 +117,7 @@ msgid ""
 "Add a few employees to be able to select an employee here and perform his check in / check out.\n"
 "                To create employees go to the Employees menu."
 msgstr ""
-"添加一些員工帳號，並用這些帳號登陸進來，選擇簽到/簽退試試看操作.\n"
+"添加一些員工帳號，並用這些帳號登陸進來，選擇上班打卡/下班打卡試試看操作.\n"
 "                要添加員工請點選員工選單即可."
 
 #. module: hr_attendance
@@ -148,7 +148,7 @@ msgstr "又是一天超棒的工作！期待很快與您見面！"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_graph
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_pivot
 msgid "Attendance"
-msgstr "考勤"
+msgstr "出勤"
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,name:hr_attendance.hr_attendance_action_graph
@@ -213,7 +213,7 @@ msgid ""
 "Cannot perform check out on %(empl_name)s, could not find corresponding "
 "check in. Your attendances have probably been modified manually by human "
 "resources."
-msgstr "在 %(empl_name)s上無法執行簽退, 無法找到相應的簽到。您的出勤可能已由人力資源手動修改。"
+msgstr "在 %(empl_name)s上無法執行下班打卡, 無法找到相應的上班打卡。您的出勤可能已由人力資源手動修改。"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__check_in
@@ -223,12 +223,12 @@ msgstr "在 %(empl_name)s上無法執行簽退, 無法找到相應的簽到。�
 #: model:ir.model.fields,field_description:hr_attendance.field_res_users__last_check_in
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Check In"
-msgstr "簽到"
+msgstr "上班打卡"
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_my_attendances
 msgid "Check In / Check Out"
-msgstr "簽到/簽退"
+msgstr "上班打卡/下班打卡"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__check_out
@@ -238,40 +238,40 @@ msgstr "簽到/簽退"
 #: model:ir.model.fields,field_description:hr_attendance.field_res_users__last_check_out
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Check Out"
-msgstr "簽退"
+msgstr "下班打卡"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Check-In/Out"
-msgstr "簽到/簽退"
+msgstr "上班打卡/下班打卡"
 
 #. module: hr_attendance
 #: model:ir.model.fields.selection,name:hr_attendance.selection__hr_employee__attendance_state__checked_in
 #: model:ir.model.fields.selection,name:hr_attendance.selection__hr_employee_base__attendance_state__checked_in
 #: model:ir.model.fields.selection,name:hr_attendance.selection__hr_employee_public__attendance_state__checked_in
 msgid "Checked in"
-msgstr "已簽到"
+msgstr "已上班打卡"
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Checked in at"
-msgstr "簽到時間"
+msgstr "上班打卡時間"
 
 #. module: hr_attendance
 #: model:ir.model.fields.selection,name:hr_attendance.selection__hr_employee__attendance_state__checked_out
 #: model:ir.model.fields.selection,name:hr_attendance.selection__hr_employee_base__attendance_state__checked_out
 #: model:ir.model.fields.selection,name:hr_attendance.selection__hr_employee_public__attendance_state__checked_out
 msgid "Checked out"
-msgstr "簽退"
+msgstr "下班打卡"
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Checked out at"
-msgstr "簽退時間"
+msgstr "下班打卡時間"
 
 #. module: hr_attendance
 #. openerp-web
@@ -378,14 +378,14 @@ msgstr "錯誤: 找不到相應的員工。"
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:0
 #, python-format
 msgid "First come, first served"
-msgstr "以別人的經驗，作自己的參考；以別人的成功，作自己的榜樣。"
+msgstr "先到者會優先享受服務。"
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:0
 #, python-format
 msgid "Glad to have you back, it's been a while!"
-msgstr "很高興您回來了，已經有些時日了！"
+msgstr "很高興您回來了，已經有一陣子沒見了！"
 
 #. module: hr_attendance
 #. openerp-web
@@ -401,21 +401,21 @@ msgstr "返回"
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:0
 #, python-format
 msgid "Good afternoon"
-msgstr "下午好"
+msgstr "午安"
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:0
 #, python-format
 msgid "Good evening"
-msgstr "晚上好"
+msgstr "晚安"
 
 #. module: hr_attendance
 #. openerp-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:0
 #, python-format
 msgid "Good morning"
-msgstr "早上好"
+msgstr "早安"
 
 #. module: hr_attendance
 #. openerp-web
@@ -443,7 +443,7 @@ msgstr "分組按"
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:0
 #, python-format
 msgid "Have a good afternoon"
-msgstr "祝您下午好"
+msgstr "祝您午安"
 
 #. module: hr_attendance
 #. openerp-web
@@ -498,7 +498,7 @@ msgstr "今日上班時間"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "Hr Attendance Search"
-msgstr "HR考勤搜尋"
+msgstr "HR出勤搜尋"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__id
@@ -529,7 +529,7 @@ msgstr "請求無效，請返回主選單。"
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_kiosk_mode
 msgid "Kiosk Mode"
-msgstr "信息亭模式"
+msgstr "資訊亭模式"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__last_attendance_id
@@ -583,7 +583,7 @@ msgstr "我的出勤"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
 msgid "No Check Out"
-msgstr "未簽退"
+msgstr "未打下班卡"
 
 #. module: hr_attendance
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_action
@@ -605,7 +605,7 @@ msgstr "沒有員工對應的條碼 %(barcode)s"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_user_view_form
 #: model_terms:ir.ui.view,arch_db:hr_attendance.view_employee_form_inherit_hr_attendance
 msgid "Not available"
-msgstr "不可用"
+msgstr "無法使用"
 
 #. module: hr_attendance
 #. openerp-web
@@ -661,7 +661,7 @@ msgstr "設定"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Sign in"
-msgstr "打卡-開始"
+msgstr "打上班卡"
 
 #. module: hr_attendance
 #. openerp-web
@@ -670,7 +670,7 @@ msgstr "打卡-開始"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Sign out"
-msgstr "打卡-結束"
+msgstr "打下班卡"
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_employee.py:155
@@ -682,7 +682,7 @@ msgstr "不允許進行此類分組。"
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_action
 #: model_terms:ir.actions.act_window,help:hr_attendance.hr_attendance_action_employee
 msgid "The attendance records of your employees will be displayed here."
-msgstr "您的員工出勤記錄將顯示在此處。"
+msgstr "您員工的出勤記錄將顯示在此處。"
 
 #. module: hr_attendance
 #. openerp-web
@@ -703,7 +703,7 @@ msgstr "使用者將獲得權限訪問人力資源的考勤選單，使他能管
 msgid ""
 "The user will have to enter his PIN to check in and out manually at the "
 "company screen."
-msgstr "使用者必須輸入其密碼才能在公司螢幕上手動的簽到和簽退。"
+msgstr "使用者必須輸入其密碼才能在公司螢幕上手動的打上班卡和打下班卡。"
 
 #. module: hr_attendance
 #. openerp-web
@@ -716,7 +716,7 @@ msgstr "今天的工作時間："
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Use PIN codes to check in in Kiosk Mode"
-msgstr "使用PIN碼在信息亭模式下登錄"
+msgstr "使用PIN碼在資訊亭模式下登錄"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_res_users
@@ -729,7 +729,7 @@ msgstr "使用者"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Want to check out?"
-msgstr "是否取出？"
+msgstr "是否要打下班卡？"
 
 #. module: hr_attendance
 #. openerp-web
@@ -797,7 +797,7 @@ msgstr "您不能複製出勤記錄。"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "check in"
-msgstr "簽到"
+msgstr "上班打卡"
 
 #. module: hr_attendance
 #. openerp-web
@@ -806,7 +806,7 @@ msgstr "簽到"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "check out"
-msgstr "簽退"
+msgstr "下班打卡"
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_employee__attendance_ids
