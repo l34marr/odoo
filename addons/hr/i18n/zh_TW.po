@@ -423,7 +423,7 @@ msgstr "員工的高級存在"
 #: model:ir.model.fields,field_description:hr.field_mail_channel__alias_contact
 #: model:ir.model.fields,field_description:hr.field_maintenance_equipment_category__alias_contact
 msgid "Alias Contact Security"
-msgstr "別名聯繫人安全"
+msgstr "別名聯繫安全"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -751,7 +751,7 @@ msgstr "聯繫信息"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Contribution to Open Source Projects"
-msgstr "對開源專案的貢獻"
+msgstr "對公開資源中專案的貢獻"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_of_birth
@@ -1436,8 +1436,7 @@ msgid ""
 "                    Developers, and work on an amazing Open Source product! Develop things people care about."
 msgstr ""
 "加入我們經驗豐富的 Python 和 JavaScript 團隊\n"
-"                    開發人員，並致力於一個驚人的開源產品！發展人們關心的事情。"
-
+"                    開發人員，並致力於一個驚人的公開資源中的產品！發展人們關心的事情。"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__km_home_work
 #: model:ir.model.fields,field_description:hr.field_res_users__km_home_work
@@ -1741,7 +1740,7 @@ msgstr "停止招聘"
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Not available"
-msgstr "不可用"
+msgstr "不可使用"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__note
@@ -1858,7 +1857,7 @@ msgstr "PIN 代碼"
 #: model:ir.model.fields,help:hr.field_hr_employee__pin
 #: model:ir.model.fields,help:hr.field_res_users__pin
 msgid "PIN used to Check In/Out in Kiosk Mode (if enabled in Configuration)."
-msgstr "在信息亭模式用於簽到/簽退的密碼（如果在配置中啟用）。"
+msgstr "在資訊亭模式用於上班打卡/下班打卡的密碼（如果在配置中啟用）。"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_id
@@ -1967,7 +1966,7 @@ msgid ""
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
-"通過信件網關在文件上提交一個消息政策。\n"
+"通過信件網在文件上提交一個消息的政策。\n"
 "- 任何人：任何人都可以提交\n"
 "- 合作夥伴：只有認證過的合作夥伴\n"
 "- 跟隨者：只有相關文件或下列頻道成員的跟隨者\n"
@@ -2015,7 +2014,7 @@ msgstr "私人電子郵件"
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Information"
-msgstr "個人隱私信息"
+msgstr "個人隱私訊息"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__phone
