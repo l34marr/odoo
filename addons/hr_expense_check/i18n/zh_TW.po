@@ -62,4 +62,4 @@ msgstr "付款方法代碼2"
 #: model:ir.model.fields,help:hr_expense_check.field_hr_expense_sheet_register_payment_wizard__payment_method_code_2
 msgid ""
 "Technical field used to adapt the interface to the payment type selected."
-msgstr "技術領域中使用的，以適應該接口所選擇的支付類型。"
+msgstr "技術領域中使用的，以適應該介面所選擇的支付類型。"
