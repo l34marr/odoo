@@ -1390,7 +1390,7 @@ msgstr "顯示合作夥伴銀行帳戶"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Show all records which has next action date is before today"
-msgstr "顯示在今天之前的下一個行動日期的所有記錄"
+msgstr "顯示在下一個行動日期是在今天前的所有記錄"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_product_product__can_be_expensed
@@ -1457,21 +1457,21 @@ msgstr "團隊審批人"
 msgid ""
 "Technical field used to hide the payment method if the selected journal has "
 "only one available which is 'manual'"
-msgstr "技術領域用於隱藏的付款方法，如果選擇的日記帳只有一個可用的是 '手動'"
+msgstr "技術用於隱藏付款方法，如果選擇的日記帳只有一個可用的是 '手動'"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet_register_payment_wizard__show_partner_bank_account
 msgid ""
 "Technical field used to know whether the field `partner_bank_account_id` "
 "needs to be displayed or not in the payments form views"
-msgstr "字段用於告知\"partner_bank_account_id\"字段是否需要被顯示在付款表單視圖中。"
+msgstr "用於告知\"partner_bank_account_id\"字段是否需要被顯示在付款表單視圖中。"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet_register_payment_wizard__require_partner_bank_account
 msgid ""
 "Technical field used to know whether the field `partner_bank_account_id` "
 "needs to be required or not in the payments form views"
-msgstr "用於瞭解是否需要在付款表單檢視中使用欄位 `partner_bank_account_id`的技術欄位"
+msgstr "用於瞭解是否需要在付款表單檢視中使用欄位 `partner_bank_account_id`"
 
 #. module: hr_expense
 #. openerp-web
@@ -1479,7 +1479,7 @@ msgstr "用於瞭解是否需要在付款表單檢視中使用欄位 `partner_ba
 #, python-format
 msgid ""
 "The accountant can register a payment to reimburse the employee directly."
-msgstr "會計人員可以註冊該筆支付款項並完成此筆費用報銷。"
+msgstr "會計人員可以登記該筆支付款項並完成此筆費用報銷。"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
@@ -1496,7 +1496,7 @@ msgstr "必須在過帳費用上設置日記帳"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__journal_id
 msgid "The journal used when the expense is done."
-msgstr "該字段在費用單據完成時會使用到。"
+msgstr "日記帳在費用單據完成時會使用到。"
 
 #. module: hr_expense
 #: code:addons/hr_expense/wizard/hr_expense_sheet_register_payment.py:0
@@ -1530,7 +1530,7 @@ msgstr "待過帳"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "To Report"
-msgstr "至報告"
+msgstr "待報告"
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__draft
@@ -1619,7 +1619,7 @@ msgstr "上傳的附件"
 #: model:ir.model.fields,help:hr_expense.field_hr_employee__expense_manager_id
 #: model:ir.model.fields,help:hr_expense.field_res_users__expense_manager_id
 msgid "User responsible of expense approval. Should be Expense approver."
-msgstr "負責費用審批的使用者。應為費用審批人。"
+msgstr "負責費用批准的使用者。應為費用批准人。"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_res_users
@@ -1675,7 +1675,7 @@ msgstr "網站溝通記錄"
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You are not authorized to edit the reference of this expense report."
-msgstr "您無權編輯此費用報告的編號。"
+msgstr "您無權編輯此費用報告的參考。"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -1752,13 +1752,13 @@ msgstr "您不能拒絕自己的費用。"
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You cannot report expenses for different employees in the same report."
-msgstr "您不能在同一個報告中為不同的員工報告費用。"
+msgstr "您不能在同一個報告中加入不同的員工的費用。"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You cannot report twice the same line!"
-msgstr "同一項目您不能報告兩次！"
+msgstr "同一項目您不能報兩次！"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
