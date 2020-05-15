@@ -10,7 +10,7 @@
 SMS Marketing on event attendees
 ================================
 
-Bridge module adding UX requirements to ease SMS marketing o, event attendees.
+Bridge module adding UX requirements to ease SMS marketing on event attendees.
         """,
     'depends': [
         'event',
